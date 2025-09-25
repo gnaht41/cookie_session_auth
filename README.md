@@ -1,5 +1,6 @@
 # cookie_session_auth
 
+- npm i
 - node app.js
 
 1. /register
