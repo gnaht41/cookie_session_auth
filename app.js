@@ -11,6 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 
+app.use('/image', express.static(path.join(__dirname, 'public/image')));
 // MongoDB connection
 mongoose.connect('mongodb://127.0.0.1:27017/sessionAuth', {
   useNewUrlParser: true,
